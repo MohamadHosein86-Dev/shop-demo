@@ -1,6 +1,7 @@
 interface PropsType {
-  text: string;
+  children: React.ReactNode;
+  style: string;
 }
-export default function Title({ text }: PropsType) {
-  return <h1 className=" text-center ">{text}</h1>;
+export default function Title({ children, style }: PropsType) {
+  return <h1 className={`${style}`}>{children}</h1>;
 }

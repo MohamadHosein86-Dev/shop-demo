@@ -1,6 +1,6 @@
 import ProductLayout from "@/app/components/productlist/ProductList";
 import Title from "@/app/components/title/Title";
-import Container from "@/app/ui/Container";
+import Container from "@/app/ui/container";
 
 export default async function ProductPage() {
   return (

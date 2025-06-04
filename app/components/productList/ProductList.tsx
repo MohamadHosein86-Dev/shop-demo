@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Product from "../product/Product";
 import useProducts from "@/app/hooks/useProducts";
-import Container from "@/app/ui/Container";
+import Container from "@/app/ui/container";
 import Pagination from "../pagination/Pagination";
 import Search from "../search/search";
 import Link from "next/link";
