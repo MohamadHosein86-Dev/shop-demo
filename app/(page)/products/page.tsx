@@ -1,11 +1,12 @@
-import ProductList from "@/app/components/productList/ProductList";
-import Container from "@/app/ui/Container";
+import ProductLayout from "@/app/components/productlist/ProductList";
+import Title from "@/app/components/title/Title";
+import Container from "@/app/ui/container";
 
 export default async function ProductPage() {
   return (
     <Container>
-      <h2 className=" text-center ">Shop</h2>
-      <ProductList />
+      <Title text="Shop" />
+      <ProductLayout />
     </Container>
   );
 }

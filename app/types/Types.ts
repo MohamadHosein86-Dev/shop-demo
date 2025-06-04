@@ -4,7 +4,7 @@ export interface ChildrenType{
 }
 export interface productsType {
   id: string;
-  name: string;
+  title: string;
   price: number;
   stock: boolean;
   rating: number;
