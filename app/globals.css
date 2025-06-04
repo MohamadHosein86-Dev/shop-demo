@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
+*{
+  outline: none;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
 }
 
 @theme inline {
@@ -44,4 +48,7 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+.shadow2{
+      box-shadow: 0 0 10px #00000029;
 }
