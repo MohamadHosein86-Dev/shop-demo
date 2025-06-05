@@ -1,3 +1,22 @@
-export default function Home() {
-  return <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">Home</div>;
+import { Fragment } from "react";
+import Title from "./components/title/Title";
+import Container from "./ui/container";
+import ProductLayout from "./components/productlayout/ProductLayout";
+
+interface ProductsPageProps {
+  searchParams: {
+    search?: string;
+    page?: string;
+  };
+}
+
+export default function Home({ searchParams }: ProductsPageProps) {
+  return (
+    <Container>
+      <Fragment>
+        <Title style="font-bold text-center mt-[1rem] text-[2rem] ">Welecome to Shop Demo</Title>
+      </Fragment>
+      <ProductLayout searchParams={searchParams} />
+    </Container>
+  );
 }

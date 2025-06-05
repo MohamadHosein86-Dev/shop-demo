@@ -1,60 +1,16 @@
 {
   "products": [
     {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-2.jpg",
-      "title": "Lipstick",
-      "description": "Bourjois Rouge Velvet No. 01",
-      "price": 150000,
-      "productCode": "AR001",
-      "brand": "Bourjois",
-      "category": "Cosmetics",
-      "isFavorite": false,
-      "inStock": true,
-      "stockQuantity": 14,
-      "id": "44490",
-      "quantity": 0
-    },
-    {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-3.jpg",
-      "title": "Foundation",
-      "description": "Bourjois Healthy Mix No. 52",
-      "price": 250000,
-      "productCode": "AR002",
-      "brand": "Bourjois",
-      "category": "Cosmetics",
-      "isFavorite": false,
-      "inStock": false,
-      "stockQuantity": 0,
-      "id": "75140",
-      "quantity": 0
-    },
-    {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
-      "title": "Volumizing Mascara",
-      "description": "Bourjois Volume Glamour Max Definition",
-      "price": 180000,
-      "productCode": "AR003",
-      "brand": "Bourjois",
-      "category": "Cosmetics",
-      "isFavorite": false,
-      "inStock": true,
-      "stockQuantity": 9,
-      "id": "10100",
-      "quantity": 0
-    },
-    {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-8.jpg",
-      "title": "Anti-Wrinkle Cream",
+      "title": "Anti-Wrinkle Creamaaaaaaaaaa",
       "description": "Garnier Ultra Doux with Avocado & Shea Butter",
       "price": 80000,
-      "productCode": "BE002",
+      "stock": false,
+      "stockQuantity": 4,
+      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-8.jpg",
+      "rating": 4.5,
       "brand": "Garnier",
       "category": "Personal Care",
-      "isFavorite": false,
-      "inStock": false,
-      "stockQuantity": 0,
-      "id": "780190",
-      "quantity": 0
+      "id": "780190"
     },
     {
       "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-6.jpg",
@@ -64,11 +20,10 @@
       "productCode": "BE005",
       "brand": "Garnier",
       "category": "Personal Care",
-      "isFavorite": false,
       "inStock": true,
       "stockQuantity": 22,
       "id": "00424",
-      "quantity": 0
+      "rating": 4.5
     },
     {
       "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-4.jpg",
@@ -78,25 +33,58 @@
       "productCode": "MO002",
       "brand": "Garnier",
       "category": "Hair Care",
-      "isFavorite": false,
       "inStock": true,
       "stockQuantity": 16,
       "id": "112005",
-      "quantity": 0
+      "rating": 4.5
     },
     {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-5.jpg",
-      "title": "Face Cream",
+      "title": "Face Cream100",
       "description": "Garnier Fructis Oil Repair 3",
       "price": 90000,
-      "productCode": "MO003",
+      "stock": false,
+      "stockQuantity": 8,
+      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-5.jpg",
+      "rating": 4.5,
       "brand": "Garnier",
       "category": "Hair Care",
-      "isFavorite": false,
-      "inStock": false,
-      "stockQuantity": 0,
-      "id": "0004574",
-      "quantity": 0
+      "id": "0004574"
+    },
+    {
+      "id": "15b9",
+      "title": "saxc",
+      "description": "ssssssssssssss",
+      "price": 85225,
+      "stock": true,
+      "stockQuantity": 12,
+      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
+      "rating": 2.7,
+      "brand": "mokl;",
+      "category": "nkl;"
+    },
+    {
+      "id": "d309",
+      "title": "saxc",
+      "description": "ssssssssssssssss",
+      "price": 85225,
+      "stock": true,
+      "stockQuantity": 12,
+      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
+      "rating": 2.7,
+      "brand": "mokl;",
+      "category": "nkl;"
+    },
+    {
+      "id": "ad24",
+      "title": "saxc",
+      "description": "سسسسسسس",
+      "price": 85225,
+      "stock": true,
+      "stockQuantity": 12,
+      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
+      "rating": 2.7,
+      "brand": "mokl;",
+      "category": "nkl;"
     }
   ]
 }

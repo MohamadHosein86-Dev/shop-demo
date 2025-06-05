@@ -10,4 +10,7 @@ export interface productsType {
   rating: number;
   image: string;
   description: string;
+  category:string;
+  brand:string
+  stockQuantity:number
 }
