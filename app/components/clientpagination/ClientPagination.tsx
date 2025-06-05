@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { productsType } from "@/app/types/Types";
 import Product from "../product/Product";
-import Link from "next/link";
 import Pagination from "../pagination/Pagination";
 
 interface PropsType {
