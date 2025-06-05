@@ -16,7 +16,7 @@ export default function AddToCart({ product }: PropsType) {
   return (
     <Fragment>
       {quantity !== 0 ? (
-        <div className="w-full flex mx-auto flex-col gap-4 items-center sm:items-stretch">
+        <div className="w-full z-[10000] flex mx-auto flex-col gap-4 items-center sm:items-stretch">
           <div className="flex items-center mx-auto gap-4">
             <button onClick={() => addToCart(product)} className="w-12  cursor-pointer pb-[4px]  sm:w-20 h-12 text-2xl font-bold bg-[#2A4FB5] text-white rounded-lg hover:bg-[#1A3D8B] transition transform hover:scale-105">
               +

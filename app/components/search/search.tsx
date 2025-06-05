@@ -7,7 +7,6 @@ import { Input } from "../ui/input";
 
 interface PropsType {
   search: string;
-  setSearch: (search: string) => void;
 }
 
 export default function Search({ search }: PropsType) {

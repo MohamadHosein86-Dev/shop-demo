@@ -23,9 +23,7 @@ export default function ClientPagination({ products }: PropsType) {
     <div className=" ">
       <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 mt-[4rem] items-center w-full mx-auto justify-center gap-[2rem]">
         {currentProducts.map((product) => (
-          <Link key={product.id} href={`products/${product.id}`}>
-            <Product product={product} />
-          </Link>
+          <Product key={product.id} product={product} />
         ))}
       </div>
       <Pagination page={currentPage} totalPages={totalPages} onPageChange={setCurrentPage} />
