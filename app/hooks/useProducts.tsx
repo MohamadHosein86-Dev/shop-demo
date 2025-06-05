@@ -6,7 +6,6 @@ const useProducts = (searchTerm = "", page = 1, limit = 5) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  // search سمت سرور
   useEffect(() => {
     const getData = async () => {
       setLoading(true);
@@ -35,7 +34,6 @@ const useProducts = (searchTerm = "", page = 1, limit = 5) => {
     getData();
   }, [searchTerm]);
 
-  // pagination سمت کلاینت
   const start = (page - 1) * limit;
   const end = start + limit;
   const currentPageProducts = allProducts.slice(start, end) as productsType[];

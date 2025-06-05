@@ -12,13 +12,17 @@ const buttonVariants = cva("inline-flex items-center justify-center rounded-md t
       outline: "border border-gray-300 bg-transparent hover:bg-gray-100",
       secondary: "bg-gray-100 text-gray-900 hover:bg-gray-200",
       ghost: "bg-transparent hover:bg-gray-100",
-      link: "bg-transparent underline-offset-4 hover:underline text-blue-600"
+      link: "bg-transparent underline-offset-4 hover:underline text-blue-600",
+      primary: "bg-[#2A4FB5] text-white hover:bg-[#1A3D8B]",
+      cart: "w-12 h-12 text-2xl font-bold bg-[#2A4FB5] text-white rounded-lg hover:bg-[#1A3D8B] transition transform hover:scale-105",
+      remove: "w-full text-lg bg-red-500 text-white py-3 rounded-lg hover:bg-red-600 transition transform hover:scale-105"
     },
     size: {
       default: "h-10 py-2 px-4",
       sm: "h-9 px-3",
       lg: "h-11 px-8",
-      icon: "h-10 w-10"
+      icon: "h-10 w-10",
+      full: "w-full"
     }
   },
   defaultVariants: {

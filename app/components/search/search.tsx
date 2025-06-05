@@ -2,9 +2,12 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useState } from "react";
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
 
 interface PropsType {
   search: string;
+  setSearch: (search: string) => void;
 }
 
 export default function Search({ search }: PropsType) {
@@ -27,11 +30,13 @@ export default function Search({ search }: PropsType) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex justify-center mt-[2rem] space-x-2">
-      <input type="text" placeholder="Search..." value={inputValue} onChange={(e) => setInputValue(e.target.value)} className="w-[50%] border-[1px] border-blue-500 p-2 rounded" />
-      <button type="submit" className="bg-blue-500 text-white px-4 rounded hover:bg-blue-600">
-        Search
-      </button>
+    <form onSubmit={handleSubmit} className=" mt-[2rem] mx-auto flex gap-[.5rem] items-center flex-col ">
+      <Input type="text" placeholder="Search..." value={inputValue} onChange={(e) => setInputValue(e.target.value)} variant="search" className=" mx-auto w-[50%]" />
+      <div className=" w-[50%] flex justify-center ">
+        <Button variant="default" type="submit">
+          Search
+        </Button>
+      </div>
     </form>
   );
 }

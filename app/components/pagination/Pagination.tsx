@@ -1,5 +1,7 @@
 "use client";
 
+import { Button } from "../ui/button";
+
 interface PropsType {
   page: number;
   totalPages: number;
@@ -9,15 +11,15 @@ interface PropsType {
 export default function Pagination({ page, totalPages, onPageChange }: PropsType) {
   return (
     <div className="flex justify-center gap-4 mt-18">
-      <button onClick={() => onPageChange(page - 1)} disabled={page === 1} className="px-4 py-2  cursor-pointer bg-blue-500  text-white rounded disabled:opacity-50">
+      <Button variant="default" onClick={() => onPageChange(page - 1)} disabled={page === 1}>
         Previous
-      </button>
+      </Button>
       <span className="px-4 font-semibold py-2">
         Page {page} of {totalPages}
       </span>
-      <button onClick={() => onPageChange(page + 1)} disabled={page === totalPages} className="px-4 py-2 cursor-pointer bg-blue-500   text-white rounded disabled:opacity-50">
+      <Button variant="default" onClick={() => onPageChange(page + 1)} disabled={page === totalPages}>
         Next
-      </button>
+      </Button>
     </div>
   );
 }

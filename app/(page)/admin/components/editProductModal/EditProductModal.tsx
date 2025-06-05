@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect, useState } from "react";
+import { Input } from "@/app/components/ui/input";
 
 const productSchema = z.object({
   title: z.string().min(1, "Title is required"),
@@ -86,49 +87,49 @@ export default function EditProductModal({ isOpen, onClose, onUpdated, product }
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">Title</label>
-            <input {...register("title")} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input {...register("title")} />
             {errors.title && <p className="mt-1 text-sm text-red-600">{errors.title.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Description</label>
-            <textarea {...register("description")} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input {...register("description")} />
             {errors.description && <p className="mt-1 text-sm text-red-600">{errors.description.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Price</label>
-            <input type="number" step="0.01" {...register("price", { valueAsNumber: true })} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input type="number" step="0.01" {...register("price", { valueAsNumber: true })} />
             {errors.price && <p className="mt-1 text-sm text-red-600">{errors.price.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Stock Quantity</label>
-            <input type="number" {...register("stockQuantity", { valueAsNumber: true })} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input type="number" {...register("stockQuantity", { valueAsNumber: true })} />
             {errors.stockQuantity && <p className="mt-1 text-sm text-red-600">{errors.stockQuantity.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Image URL</label>
-            <input {...register("image")} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input {...register("image")} />
             {errors.image && <p className="mt-1 text-sm text-red-600">{errors.image.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Rating</label>
-            <input type="number" step="0.1" {...register("rating", { valueAsNumber: true })} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input type="number" step="0.1" {...register("rating", { valueAsNumber: true })} />
             {errors.rating && <p className="mt-1 text-sm text-red-600">{errors.rating.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Brand</label>
-            <input {...register("brand")} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input {...register("brand")} />
             {errors.brand && <p className="mt-1 text-sm text-red-600">{errors.brand.message}</p>}
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">Category</label>
-            <input {...register("category")} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" />
+            <Input {...register("category")} />
             {errors.category && <p className="mt-1 text-sm text-red-600">{errors.category.message}</p>}
           </div>
 

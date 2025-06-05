@@ -1,90 +1,71 @@
 {
-  "products": [
-    {
-      "title": "Anti-Wrinkle Creamaaaaaaaaaa",
-      "description": "Garnier Ultra Doux with Avocado & Shea Butter",
-      "price": 80000,
-      "stock": false,
-      "stockQuantity": 4,
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-8.jpg",
-      "rating": 4.5,
-      "brand": "Garnier",
-      "category": "Personal Care",
-      "id": "780190"
-    },
-    {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-6.jpg",
-      "title": "Hair Conditioner",
-      "description": "Garnier Ultra Doux with Honey & Royal Jelly",
-      "price": 85000,
-      "productCode": "BE005",
-      "brand": "Garnier",
-      "category": "Personal Care",
-      "inStock": true,
-      "stockQuantity": 22,
-      "id": "00424",
-      "rating": 4.5
-    },
-    {
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-4.jpg",
-      "title": "Body Cream",
-      "description": "Garnier Fructis Grow Strong",
-      "price": 95000,
-      "productCode": "MO002",
-      "brand": "Garnier",
-      "category": "Hair Care",
-      "inStock": true,
-      "stockQuantity": 16,
-      "id": "112005",
-      "rating": 4.5
-    },
-    {
-      "title": "Face Cream100",
-      "description": "Garnier Fructis Oil Repair 3",
-      "price": 90000,
-      "stock": false,
-      "stockQuantity": 8,
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-5.jpg",
-      "rating": 4.5,
-      "brand": "Garnier",
-      "category": "Hair Care",
-      "id": "0004574"
-    },
-    {
-      "id": "15b9",
-      "title": "saxc",
-      "description": "ssssssssssssss",
-      "price": 85225,
-      "stock": true,
-      "stockQuantity": 12,
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
-      "rating": 2.7,
-      "brand": "mokl;",
-      "category": "nkl;"
-    },
-    {
-      "id": "d309",
-      "title": "saxc",
-      "description": "ssssssssssssssss",
-      "price": 85225,
-      "stock": true,
-      "stockQuantity": 12,
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
-      "rating": 2.7,
-      "brand": "mokl;",
-      "category": "nkl;"
-    },
-    {
-      "id": "ad24",
-      "title": "saxc",
-      "description": "سسسسسسس",
-      "price": 85225,
-      "stock": true,
-      "stockQuantity": 12,
-      "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
-      "rating": 2.7,
-      "brand": "mokl;",
-      "category": "nkl;"
-    }
+ "products": [
+  {
+    "title": "Matte Lipstick",
+    "description": "Bourjois Rouge Velvet No. 01",
+    "price": 150000,
+    "stock": true,
+    "stockQuantity": 0,
+    "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-2.jpg",
+    "rating": 4.6,
+    "brand": "Bourjois",
+    "category": "Cosmetics"
+  },
+  {
+    "title": "Foundation",
+    "description": "Bourjois Healthy Mix No. 52",
+    "price": 250000,
+    "stock": false,
+    "stockQuantity": 0,
+    "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-3.jpg",
+    "rating": 4.2,
+    "brand": "Bourjois",
+    "category": "Cosmetics"
+  },
+  {
+    "title": "Volumizing Mascara",
+    "description": "Bourjois Volume Glamour Max Definition",
+    "price": 180000,
+    "stock": true,
+    "stockQuantity": 0,
+    "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-7.jpg",
+    "rating": 4.7,
+    "brand": "Bourjois",
+    "category": "Cosmetics"
+  },
+  {
+    "title": "Anti-Wrinkle Cream",
+    "description": "Garnier Ultra Doux with Avocado & Shea Butter",
+    "price": 80000,
+    "stock": false,
+    "stockQuantity": 0,
+    "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-8.jpg",
+    "rating": 3.9,
+    "brand": "Garnier",
+    "category": "Personal Care"
+  },
+  {
+    "title": "Hair Conditioner",
+    "description": "Garnier Ultra Doux with Honey & Royal Jelly",
+    "price": 85000,
+    "stock": true,
+    "stockQuantity": 0,
+    "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-6.jpg",
+    "rating": 4.3,
+    "brand": "Garnier",
+    "category": "Personal Care"
+  },
+  {
+    "title": "Body Cream",
+    "description": "Garnier Fructis Grow Strong",
+    "price": 95000,
+    "stock": true,
+    "stockQuantity": 0,
+    "image": "https://de3193820.t.ux5.ir/themes-files/bz_sh_template05/image-4.jpg",
+    "rating": 4.0,
+    "brand": "Garnier",
+    "category": "Hair"
+  }
   ]
+
 }

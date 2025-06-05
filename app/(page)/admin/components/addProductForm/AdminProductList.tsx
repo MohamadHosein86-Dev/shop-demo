@@ -5,6 +5,7 @@ import Container from "@/app/ui/container";
 import { useEffect, useState } from "react";
 import EditProductModal from "../editProductModal/EditProductModal";
 import AddProductModal from "../addProductModal/AddProductModal";
+import { Button } from "@/app/ui/button";
 
 export default function AdminProductList() {
   const [editingProduct, setEditingProduct] = useState<productsType | null>(null);
@@ -68,7 +69,7 @@ export default function AdminProductList() {
         </button>
       </div>
 
-      <div className="grid gap-4">
+      <div className="grid  gap-4">
         {products.map((product) => (
           <div key={product.id} className="p-4 shadow2 bg-[#fff] rounded flex justify-between items-center">
             <div>
@@ -84,13 +85,13 @@ export default function AdminProductList() {
                 status: <span className={`font-semibold ${product.stock ? "text-green-500" : "text-red-500"}`}>{product.stock ? "In Stock" : "Out of Stock"}</span>
               </p>
             </div>
-            <div className="flex flex-col gap-[1rem]">
-              <button onClick={() => openEditModal(product)} className="bg-blue-500 cursor-pointer w-[10rem] text-white px-4 py-3 rounded hover:bg-blue-600 transition">
+            <div className="flex   gap-[1rem]">
+              <Button variant="default" onClick={() => openEditModal(product)}>
                 Edit
-              </button>
-              <button onClick={() => handleDelete(product.id)} disabled={deleteLoading === product.id} className="bg-red-500 cursor-pointer w-[10rem] text-white px-4 py-3 rounded hover:bg-red-600 transition disabled:opacity-50">
+              </Button>
+              <Button variant="destructive" onClick={() => handleDelete(product.id)} disabled={deleteLoading === product.id}>
                 {deleteLoading === product.id ? "Deleting..." : "Delete"}
-              </button>
+              </Button>
             </div>
           </div>
         ))}
